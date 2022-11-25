@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #f1faee;
+  --seconndary-color: #8d99ae;
+  --text-color: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.container {
+  padding: 1rem 0.5rem;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.comment {
+  padding: 0.5rem;
+  /* border: 2px solid var(--seconndary-color); */
+  border-radius: 5px;
+  /* position: relative; */
+}
+
+.comment-container {
+  margin: 1rem 0;
+  border: 2px solid var(--seconndary-color);
+  border-radius: 5px;
+}
+
+.common-input-style {
+  width: 500px;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 1rem;
+  border: 2px solid var(--seconndary-color);
+  padding: 0 0.4rem;
+}
+
+.common-btn-style {
+  padding: 0.3rem 1rem;
+  display: block;
+  margin: 0.5rem 0 0 0;
+  cursor: pointer;
+  background-color: inherit;
+  border: 2px solid var(--seconndary-color);
+  border-radius: 5px;
+}
+
+.nested-comment {
+  margin-left: 2rem;
+  width: 100%;
+  /* position: absolute; */
+  padding: 0.5rem 0;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem;
+}
+
+a {
+  color: var(--text-color);
+}
+
+a:checked {
+  color: var(--text-color);
+}
