@@ -35,9 +35,7 @@ main {
 
 .comment {
   padding: 0.5rem;
-  /* border: 2px solid var(--seconndary-color); */
   border-radius: 5px;
-  /* position: relative; */
 }
 
 .comment-container {
@@ -47,7 +45,7 @@ main {
 }
 
 .common-input-style {
-  width: 500px;
+  width: 60%;
   border-radius: 5px;
   height: 30px;
   font-size: 1rem;
@@ -68,7 +66,6 @@ main {
 .nested-comment {
   margin-left: 2rem;
   width: 100%;
-  /* position: absolute; */
   padding: 0.5rem 0;
 }
 
