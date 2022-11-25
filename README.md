@@ -1,12 +1,5 @@
-## Javascript App Template
+## Comment section
 
-This app was bootstraped with [new-javascript-app](https://www.npmjs.com/package/new-javascript-app)
+#### This is a comment section app, which can help you add a comment, and reply to a comment. Check it out 👇
 
-#### Get Started
-
-- Open `index.html` with any live server.
-
-#### Learn More
-
-- Package Details: [new-javascript-app](https://www.npmjs.com/package/new-javascript-app)
-- Author: [Linkedin](https://www.linkedin.com/in/akshay-raichur) , [GitHub](https://github.com/akshayraichur)
+![screenshot-1](./comment-section.jpg)
