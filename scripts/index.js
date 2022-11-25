@@ -1,12 +1,12 @@
-const commentContainer = document.querySelector('.comment');
-
-// TODO: add validation checks everywhere
-
 const addNewComment = (e) => {
   // get the parent node
   const parentNode = e.target.parentNode;
   // get the input value from sibling input elm.
-  const inputValue = parentNode.querySelector('.comment-input').value;
+  const inputValue = parentNode.querySelector('.comment-input').value.trim();
+
+  if (inputValue === '') {
+    return;
+  }
 
   // remove contents from parent node
   parentNode.innerHTML = ``;
@@ -35,6 +35,12 @@ const addReply = (e) => {
 };
 
 const addNewCommentSection = (e) => {
+  let inputValue = e.target.previousElementSibling;
+  inputValue = inputValue.value.trim();
+
+  if (inputValue === '') {
+    return;
+  }
   const newCommentSection = document.createElement('div');
   newCommentSection.classList.add('comment-container');
 
